@@ -1,0 +1,22 @@
+[
+  {
+    "key": "airport",
+    "count": 24,
+    "sum": 3024
+  },
+  {
+    "key": "gate",
+    "count": 24,
+    "sum": 2748
+  },
+  {
+    "key": "hall",
+    "count": 24,
+    "sum": 2796
+  },
+  {
+    "key": "plaza",
+    "count": 24,
+    "sum": 2892
+  }
+]

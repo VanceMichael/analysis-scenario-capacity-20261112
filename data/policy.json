@@ -1,0 +1,90 @@
+{
+  "budget": 4,
+  "minutesPerWorker": 60,
+  "alpha": 0.9,
+  "riskWeight": 1,
+  "minimum": {
+    "gate": 1,
+    "hall": 1
+  },
+  "workers": [
+    {
+      "id": "w0",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    },
+    {
+      "id": "w1",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    },
+    {
+      "id": "w2",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    },
+    {
+      "id": "w3",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    },
+    {
+      "id": "w4",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    },
+    {
+      "id": "w5",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "points": [
+        "gate",
+        "hall",
+        "airport",
+        "plaza"
+      ]
+    }
+  ]
+}
