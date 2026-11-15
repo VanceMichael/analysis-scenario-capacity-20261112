@@ -1,0 +1,32 @@
+{
+  "count": 96,
+  "groupBy": "point",
+  "groups": [
+    {
+      "count": 24,
+      "key": "airport",
+      "scenarios": 24,
+      "sum": 3024
+    },
+    {
+      "count": 24,
+      "key": "gate",
+      "scenarios": 24,
+      "sum": 2748
+    },
+    {
+      "count": 24,
+      "key": "hall",
+      "scenarios": 24,
+      "sum": 2796
+    },
+    {
+      "count": 24,
+      "key": "plaza",
+      "scenarios": 24,
+      "sum": 2892
+    }
+  ],
+  "inputFingerprint": "0aca419b5a2edf9cfbd6f04f0c89f70ba0e6dd9eb1037ede29ad68fb90400e09",
+  "valueField": "demand"
+}

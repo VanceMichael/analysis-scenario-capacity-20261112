@@ -1,90 +1,74 @@
 {
-  "budget": 4,
+  "budget": 6,
   "minutesPerWorker": 60,
   "alpha": 0.9,
   "riskWeight": 1,
+  "weightSemantics": "weights",
   "minimum": {
     "gate": 1,
     "hall": 1
   },
+  "transferCost": {
+    "gate": 6,
+    "hall": 6,
+    "airport": 10,
+    "plaza": 12
+  },
   "workers": [
     {
-      "id": "w0",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "en-a",
+      "languages": ["en"],
+      "points": ["gate", "airport"],
+      "home": "gate"
     },
     {
-      "id": "w1",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "en-b",
+      "languages": ["en"],
+      "points": ["gate", "airport"],
+      "home": "gate"
     },
     {
-      "id": "w2",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "en-c",
+      "languages": ["en"],
+      "points": ["gate", "airport"],
+      "home": "airport"
     },
     {
-      "id": "w3",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "fr-a",
+      "languages": ["fr"],
+      "points": ["hall", "plaza"],
+      "home": "hall"
     },
     {
-      "id": "w4",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "fr-b",
+      "languages": ["fr"],
+      "points": ["hall", "plaza"],
+      "home": "hall"
     },
     {
-      "id": "w5",
-      "languages": [
-        "en",
-        "fr"
-      ],
-      "points": [
-        "gate",
-        "hall",
-        "airport",
-        "plaza"
-      ]
+      "id": "fr-c",
+      "languages": ["fr"],
+      "points": ["hall", "plaza"],
+      "home": "plaza"
+    },
+    {
+      "id": "mix-a",
+      "languages": ["en", "fr"],
+      "points": ["gate", "hall", "airport", "plaza"],
+      "home": "airport"
+    },
+    {
+      "id": "mix-b",
+      "languages": ["en", "fr"],
+      "points": ["gate", "hall", "airport", "plaza"],
+      "home": "plaza"
+    },
+    {
+      "id": "off-1",
+      "languages": ["fr"],
+      "points": ["hall", "plaza"],
+      "home": "hall",
+      "available": false
     }
   ]
 }

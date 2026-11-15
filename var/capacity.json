@@ -1,0 +1,3492 @@
+{
+  "averageOptimal": {
+    "alpha": 0.9,
+    "assignment": [
+      {
+        "effectiveMinutes": 60,
+        "home": "gate",
+        "point": "gate",
+        "transferCost": 0,
+        "worker": "en-b"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "airport",
+        "point": "airport",
+        "transferCost": 0,
+        "worker": "en-c"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "hall",
+        "point": "hall",
+        "transferCost": 0,
+        "worker": "fr-b"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "plaza",
+        "point": "plaza",
+        "transferCost": 0,
+        "worker": "fr-c"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "airport",
+        "point": "airport",
+        "transferCost": 0,
+        "worker": "mix-a"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "plaza",
+        "point": "plaza",
+        "transferCost": 0,
+        "worker": "mix-b"
+      }
+    ],
+    "cvar": 347.1666666666667,
+    "expectedShortfall": 166.45833333333343,
+    "headcount": {
+      "airport": 2,
+      "gate": 1,
+      "hall": 1,
+      "plaza": 2
+    },
+    "objective": 166.45833333333343,
+    "riskWeight": 0,
+    "scenarios": [
+      {
+        "id": "s0",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 64,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 30,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 47,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 81,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 0,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s1",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 132,
+            "shortfall": 12
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 98,
+            "shortfall": 38
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 115,
+            "shortfall": 55
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 149,
+            "shortfall": 29
+          }
+        },
+        "shortfall": 134,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s10",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 204,
+            "shortfall": 84
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 170,
+            "shortfall": 110
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 187,
+            "shortfall": 127
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 41,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 321,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s11",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 92,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 58,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 75,
+            "shortfall": 15
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 109,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 15,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s12",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 160,
+            "shortfall": 40
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 126,
+            "shortfall": 66
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 143,
+            "shortfall": 83
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 177,
+            "shortfall": 57
+          }
+        },
+        "shortfall": 246,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s13",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 48,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 194,
+            "shortfall": 134
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 31,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 65,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 134,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s14",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 116,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 82,
+            "shortfall": 22
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 99,
+            "shortfall": 39
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 133,
+            "shortfall": 13
+          }
+        },
+        "shortfall": 74,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s15",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 184,
+            "shortfall": 64
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 150,
+            "shortfall": 90
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 167,
+            "shortfall": 107
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 201,
+            "shortfall": 81
+          }
+        },
+        "shortfall": 342,
+        "tailInclusion": 1,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.041666666666666685
+      },
+      {
+        "id": "s16",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 72,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 38,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 55,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 89,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 0,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s17",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 140,
+            "shortfall": 20
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 106,
+            "shortfall": 46
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 123,
+            "shortfall": 63
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 157,
+            "shortfall": 37
+          }
+        },
+        "shortfall": 166,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s18",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 208,
+            "shortfall": 88
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 174,
+            "shortfall": 114
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 191,
+            "shortfall": 131
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 45,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 333,
+        "tailInclusion": 0.3999999999999984,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.016666666666666607
+      },
+      {
+        "id": "s19",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 96,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 62,
+            "shortfall": 2
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 79,
+            "shortfall": 19
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 113,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 21,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s2",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 200,
+            "shortfall": 80
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 166,
+            "shortfall": 106
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 183,
+            "shortfall": 123
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 37,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 309,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s20",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 164,
+            "shortfall": 44
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 130,
+            "shortfall": 70
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 147,
+            "shortfall": 87
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 181,
+            "shortfall": 61
+          }
+        },
+        "shortfall": 262,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s21",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 52,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 198,
+            "shortfall": 138
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 35,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 69,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 138,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s22",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 120,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 86,
+            "shortfall": 26
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 103,
+            "shortfall": 43
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 137,
+            "shortfall": 17
+          }
+        },
+        "shortfall": 86,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s23",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 188,
+            "shortfall": 68
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 154,
+            "shortfall": 94
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 171,
+            "shortfall": 111
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 205,
+            "shortfall": 85
+          }
+        },
+        "shortfall": 358,
+        "tailInclusion": 1,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.041666666666666685
+      },
+      {
+        "id": "s3",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 88,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 54,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 71,
+            "shortfall": 11
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 105,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 11,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s4",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 156,
+            "shortfall": 36
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 122,
+            "shortfall": 62
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 139,
+            "shortfall": 79
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 173,
+            "shortfall": 53
+          }
+        },
+        "shortfall": 230,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s5",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 44,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 190,
+            "shortfall": 130
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 207,
+            "shortfall": 147
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 61,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 277,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s6",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 112,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 78,
+            "shortfall": 18
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 95,
+            "shortfall": 35
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 129,
+            "shortfall": 9
+          }
+        },
+        "shortfall": 62,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s7",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 180,
+            "shortfall": 60
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 146,
+            "shortfall": 86
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 163,
+            "shortfall": 103
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 197,
+            "shortfall": 77
+          }
+        },
+        "shortfall": 326,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s8",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 68,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 34,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 51,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 85,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 0,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s9",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 136,
+            "shortfall": 16
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 102,
+            "shortfall": 42
+          },
+          "hall": {
+            "capacity": 60,
+            "demand": 119,
+            "shortfall": 59
+          },
+          "plaza": {
+            "capacity": 120,
+            "demand": 153,
+            "shortfall": 33
+          }
+        },
+        "shortfall": 150,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      }
+    ],
+    "tail": {
+      "actualTailMass": 0.09999999999999998,
+      "alpha": 0.9,
+      "boundary": {
+        "groupWeight": 0.041666666666666685,
+        "includedFraction": 0.3999999999999984,
+        "loss": 333,
+        "memberIds": [
+          "s18"
+        ],
+        "weightTaken": 0.016666666666666607
+      },
+      "members": [
+        {
+          "contribution": 14.916666666666673,
+          "groupIndex": 0,
+          "id": "s23",
+          "inclusionFraction": 1,
+          "index": 16,
+          "loss": 358,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.41666666666666696,
+          "tailOrder": 0,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "contribution": 14.250000000000007,
+          "groupIndex": 1,
+          "id": "s15",
+          "inclusionFraction": 1,
+          "index": 7,
+          "loss": 342,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.41666666666666696,
+          "tailOrder": 1,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "contribution": 5.54999999999998,
+          "groupIndex": 2,
+          "id": "s18",
+          "inclusionFraction": 0.3999999999999984,
+          "index": 10,
+          "loss": 333,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.1666666666666661,
+          "tailOrder": 2,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.016666666666666607
+        }
+      ],
+      "method": "weighted-discrete-tail-with-boundary-fraction",
+      "probabilityInterpretation": false,
+      "semantics": "weights",
+      "tailMass": 0.09999999999999998
+    },
+    "totalAssigned": 6,
+    "transferMinutes": 0
+  },
+  "comparison": {
+    "averageUnderRisk": {
+      "cvar": 347.1666666666667,
+      "expectedShortfall": 166.45833333333343,
+      "objective": 513.6250000000001
+    },
+    "description": "averageOptimal 只最小化加权平均缺口（同值时取较小 CVaR）；riskAverse 最小化期望缺口 + riskWeight × CVaR。",
+    "difference": {
+      "cvar": -1.1666666666666856,
+      "expectedShortfall": 0.8749999999999147,
+      "objective": -0.29166666666674246
+    },
+    "headcountChange": {
+      "airport": 0,
+      "gate": 0,
+      "hall": 1,
+      "plaza": -1
+    },
+    "samePlan": false,
+    "scenarios": [
+      {
+        "averageShortfall": 0,
+        "change": 21,
+        "id": "s0",
+        "riskAverseShortfall": 21,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 134,
+        "change": 5,
+        "id": "s1",
+        "riskAverseShortfall": 139,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 321,
+        "change": -60,
+        "id": "s10",
+        "riskAverseShortfall": 261,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 15,
+        "change": 34,
+        "id": "s11",
+        "riskAverseShortfall": 49,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 246,
+        "change": 0,
+        "id": "s12",
+        "riskAverseShortfall": 246,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 134,
+        "change": 5,
+        "id": "s13",
+        "riskAverseShortfall": 139,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 74,
+        "change": 21,
+        "id": "s14",
+        "riskAverseShortfall": 95,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 342,
+        "change": 0,
+        "id": "s15",
+        "riskAverseShortfall": 342,
+        "tailMember": true,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 0,
+        "change": 29,
+        "id": "s16",
+        "riskAverseShortfall": 29,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 166,
+        "change": 0,
+        "id": "s17",
+        "riskAverseShortfall": 166,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 333,
+        "change": -60,
+        "id": "s18",
+        "riskAverseShortfall": 273,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 21,
+        "change": 34,
+        "id": "s19",
+        "riskAverseShortfall": 55,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 309,
+        "change": -60,
+        "id": "s2",
+        "riskAverseShortfall": 249,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 262,
+        "change": 0,
+        "id": "s20",
+        "riskAverseShortfall": 262,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 138,
+        "change": 9,
+        "id": "s21",
+        "riskAverseShortfall": 147,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 86,
+        "change": 17,
+        "id": "s22",
+        "riskAverseShortfall": 103,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 358,
+        "change": 0,
+        "id": "s23",
+        "riskAverseShortfall": 358,
+        "tailMember": true,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 11,
+        "change": 34,
+        "id": "s3",
+        "riskAverseShortfall": 45,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 230,
+        "change": 0,
+        "id": "s4",
+        "riskAverseShortfall": 230,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 277,
+        "change": -59,
+        "id": "s5",
+        "riskAverseShortfall": 218,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 62,
+        "change": 25,
+        "id": "s6",
+        "riskAverseShortfall": 87,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 326,
+        "change": 0,
+        "id": "s7",
+        "riskAverseShortfall": 326,
+        "tailMember": true,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 0,
+        "change": 25,
+        "id": "s8",
+        "riskAverseShortfall": 25,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 150,
+        "change": 1,
+        "id": "s9",
+        "riskAverseShortfall": 151,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      }
+    ],
+    "scenariosImproved": [
+      {
+        "averageShortfall": 321,
+        "change": -60,
+        "id": "s10",
+        "riskAverseShortfall": 261,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 333,
+        "change": -60,
+        "id": "s18",
+        "riskAverseShortfall": 273,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 309,
+        "change": -60,
+        "id": "s2",
+        "riskAverseShortfall": 249,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 277,
+        "change": -59,
+        "id": "s5",
+        "riskAverseShortfall": 218,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      }
+    ],
+    "scenariosWorsened": [
+      {
+        "averageShortfall": 0,
+        "change": 21,
+        "id": "s0",
+        "riskAverseShortfall": 21,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 134,
+        "change": 5,
+        "id": "s1",
+        "riskAverseShortfall": 139,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 15,
+        "change": 34,
+        "id": "s11",
+        "riskAverseShortfall": 49,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 134,
+        "change": 5,
+        "id": "s13",
+        "riskAverseShortfall": 139,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 74,
+        "change": 21,
+        "id": "s14",
+        "riskAverseShortfall": 95,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 0,
+        "change": 29,
+        "id": "s16",
+        "riskAverseShortfall": 29,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 21,
+        "change": 34,
+        "id": "s19",
+        "riskAverseShortfall": 55,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 138,
+        "change": 9,
+        "id": "s21",
+        "riskAverseShortfall": 147,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 86,
+        "change": 17,
+        "id": "s22",
+        "riskAverseShortfall": 103,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 11,
+        "change": 34,
+        "id": "s3",
+        "riskAverseShortfall": 45,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 62,
+        "change": 25,
+        "id": "s6",
+        "riskAverseShortfall": 87,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 0,
+        "change": 25,
+        "id": "s8",
+        "riskAverseShortfall": 25,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      },
+      {
+        "averageShortfall": 150,
+        "change": 1,
+        "id": "s9",
+        "riskAverseShortfall": 151,
+        "tailMember": false,
+        "weight": 0.041666666666666664
+      }
+    ]
+  },
+  "comparisonNote": null,
+  "constraints": {
+    "budget": {
+      "limit": 6,
+      "satisfied": true,
+      "used": 6
+    },
+    "minimum": [
+      {
+        "assigned": 1,
+        "point": "gate",
+        "required": 1,
+        "satisfied": true
+      },
+      {
+        "assigned": 2,
+        "point": "hall",
+        "required": 1,
+        "satisfied": true
+      }
+    ]
+  },
+  "feasibility": "feasible",
+  "feasible": true,
+  "inputFingerprint": "0aca419b5a2edf9cfbd6f04f0c89f70ba0e6dd9eb1037ede29ad68fb90400e09",
+  "managerBrief": {
+    "conflicts": [],
+    "headline": "风险厌恶方案相对平均最优调整人员：hall+1，plaza-1；CVaR 变化 -1.17 分钟，平均缺口变化 0.87 分钟。 多花一名人员（预算 7）改善 21 个情景，主要来自 plaza 平均缺口 -39.88 分钟；平均缺口变化 -39.87 分钟，CVaR 变化 -58.83 分钟。"
+  },
+  "marginalWorker": {
+    "addedBudget": 7,
+    "available": true,
+    "cvarChange": -58.833333333333314,
+    "expectedShortfallChange": -39.87499999999994,
+    "feasible": true,
+    "headcountChange": {
+      "airport": 0,
+      "gate": 0,
+      "hall": 0,
+      "plaza": 1
+    },
+    "improvedScenarios": [
+      {
+        "after": 79,
+        "before": 139,
+        "id": "s1",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 186,
+        "before": 246,
+        "id": "s12",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 35,
+        "before": 95,
+        "id": "s14",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 282,
+        "before": 342,
+        "id": "s15",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 106,
+        "before": 166,
+        "id": "s17",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 202,
+        "before": 262,
+        "id": "s20",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 43,
+        "before": 103,
+        "id": "s22",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 298,
+        "before": 358,
+        "id": "s23",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 170,
+        "before": 230,
+        "id": "s4",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 27,
+        "before": 87,
+        "id": "s6",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 266,
+        "before": 326,
+        "id": "s7",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 91,
+        "before": 151,
+        "id": "s9",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 2,
+        "before": 55,
+        "id": "s19",
+        "reduction": 53,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 49,
+        "id": "s11",
+        "reduction": 49,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 45,
+        "id": "s3",
+        "reduction": 45,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 29,
+        "id": "s16",
+        "reduction": 29,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 25,
+        "id": "s8",
+        "reduction": 25,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 21,
+        "id": "s0",
+        "reduction": 21,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 138,
+        "before": 147,
+        "id": "s21",
+        "reduction": 9,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 134,
+        "before": 139,
+        "id": "s13",
+        "reduction": 5,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 217,
+        "before": 218,
+        "id": "s5",
+        "reduction": 1,
+        "weight": 0.041666666666666664
+      }
+    ],
+    "objectiveChange": -98.70833333333326,
+    "perPoint": {
+      "airport": {
+        "expectedShortfallAfter": 25.500000000000014,
+        "expectedShortfallBefore": 25.500000000000014,
+        "expectedShortfallChange": 0,
+        "headcountChange": 0
+      },
+      "gate": {
+        "expectedShortfallAfter": 58.083333333333364,
+        "expectedShortfallBefore": 58.083333333333364,
+        "expectedShortfallChange": 0,
+        "headcountChange": 0
+      },
+      "hall": {
+        "expectedShortfallAfter": 20.87500000000001,
+        "expectedShortfallBefore": 20.87500000000001,
+        "expectedShortfallChange": 0,
+        "headcountChange": 0
+      },
+      "plaza": {
+        "expectedShortfallAfter": 23.00000000000001,
+        "expectedShortfallBefore": 62.87500000000002,
+        "expectedShortfallChange": -39.875000000000014,
+        "headcountChange": 1
+      }
+    },
+    "plan": {
+      "alpha": 0.9,
+      "assignment": [
+        {
+          "effectiveMinutes": 60,
+          "home": "gate",
+          "point": "gate",
+          "transferCost": 0,
+          "worker": "en-b"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "airport",
+          "point": "airport",
+          "transferCost": 0,
+          "worker": "en-c"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "hall",
+          "point": "hall",
+          "transferCost": 0,
+          "worker": "fr-a"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "hall",
+          "point": "hall",
+          "transferCost": 0,
+          "worker": "fr-b"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "plaza",
+          "point": "plaza",
+          "transferCost": 0,
+          "worker": "fr-c"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "airport",
+          "point": "airport",
+          "transferCost": 0,
+          "worker": "mix-a"
+        },
+        {
+          "effectiveMinutes": 60,
+          "home": "plaza",
+          "point": "plaza",
+          "transferCost": 0,
+          "worker": "mix-b"
+        }
+      ],
+      "cvar": 287.1666666666667,
+      "expectedShortfall": 127.4583333333334,
+      "headcount": {
+        "airport": 2,
+        "gate": 1,
+        "hall": 2,
+        "plaza": 2
+      },
+      "objective": 414.6250000000001,
+      "riskWeight": 1,
+      "scenarios": [
+        {
+          "id": "s0",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 64,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 30,
+              "shortfall": 0
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 47,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 81,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 0,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s1",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 132,
+              "shortfall": 12
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 98,
+              "shortfall": 38
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 115,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 149,
+              "shortfall": 29
+            }
+          },
+          "shortfall": 79,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s10",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 204,
+              "shortfall": 84
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 170,
+              "shortfall": 110
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 187,
+              "shortfall": 67
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 41,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 261,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s11",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 92,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 58,
+              "shortfall": 0
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 75,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 109,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 0,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s12",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 160,
+              "shortfall": 40
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 126,
+              "shortfall": 66
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 143,
+              "shortfall": 23
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 177,
+              "shortfall": 57
+            }
+          },
+          "shortfall": 186,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s13",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 48,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 194,
+              "shortfall": 134
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 31,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 65,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 134,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s14",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 116,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 82,
+              "shortfall": 22
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 99,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 133,
+              "shortfall": 13
+            }
+          },
+          "shortfall": 35,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s15",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 184,
+              "shortfall": 64
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 150,
+              "shortfall": 90
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 167,
+              "shortfall": 47
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 201,
+              "shortfall": 81
+            }
+          },
+          "shortfall": 282,
+          "tailInclusion": 1,
+          "tailMember": true,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "id": "s16",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 72,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 38,
+              "shortfall": 0
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 55,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 89,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 0,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s17",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 140,
+              "shortfall": 20
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 106,
+              "shortfall": 46
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 123,
+              "shortfall": 3
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 157,
+              "shortfall": 37
+            }
+          },
+          "shortfall": 106,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s18",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 208,
+              "shortfall": 88
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 174,
+              "shortfall": 114
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 191,
+              "shortfall": 71
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 45,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 273,
+          "tailInclusion": 0.3999999999999984,
+          "tailMember": true,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.016666666666666607
+        },
+        {
+          "id": "s19",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 96,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 62,
+              "shortfall": 2
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 79,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 113,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 2,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s2",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 200,
+              "shortfall": 80
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 166,
+              "shortfall": 106
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 183,
+              "shortfall": 63
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 37,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 249,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s20",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 164,
+              "shortfall": 44
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 130,
+              "shortfall": 70
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 147,
+              "shortfall": 27
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 181,
+              "shortfall": 61
+            }
+          },
+          "shortfall": 202,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s21",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 52,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 198,
+              "shortfall": 138
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 35,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 69,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 138,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s22",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 120,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 86,
+              "shortfall": 26
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 103,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 137,
+              "shortfall": 17
+            }
+          },
+          "shortfall": 43,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s23",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 188,
+              "shortfall": 68
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 154,
+              "shortfall": 94
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 171,
+              "shortfall": 51
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 205,
+              "shortfall": 85
+            }
+          },
+          "shortfall": 298,
+          "tailInclusion": 1,
+          "tailMember": true,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "id": "s3",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 88,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 54,
+              "shortfall": 0
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 71,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 105,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 0,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s4",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 156,
+              "shortfall": 36
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 122,
+              "shortfall": 62
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 139,
+              "shortfall": 19
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 173,
+              "shortfall": 53
+            }
+          },
+          "shortfall": 170,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s5",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 44,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 190,
+              "shortfall": 130
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 207,
+              "shortfall": 87
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 61,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 217,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s6",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 112,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 78,
+              "shortfall": 18
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 95,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 129,
+              "shortfall": 9
+            }
+          },
+          "shortfall": 27,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s7",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 180,
+              "shortfall": 60
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 146,
+              "shortfall": 86
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 163,
+              "shortfall": 43
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 197,
+              "shortfall": 77
+            }
+          },
+          "shortfall": 266,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s8",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 68,
+              "shortfall": 0
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 34,
+              "shortfall": 0
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 51,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 85,
+              "shortfall": 0
+            }
+          },
+          "shortfall": 0,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        },
+        {
+          "id": "s9",
+          "normalizedWeight": 0.041666666666666685,
+          "perPoint": {
+            "airport": {
+              "capacity": 120,
+              "demand": 136,
+              "shortfall": 16
+            },
+            "gate": {
+              "capacity": 60,
+              "demand": 102,
+              "shortfall": 42
+            },
+            "hall": {
+              "capacity": 120,
+              "demand": 119,
+              "shortfall": 0
+            },
+            "plaza": {
+              "capacity": 120,
+              "demand": 153,
+              "shortfall": 33
+            }
+          },
+          "shortfall": 91,
+          "tailInclusion": 0,
+          "tailMember": false,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0
+        }
+      ],
+      "tail": {
+        "actualTailMass": 0.09999999999999998,
+        "alpha": 0.9,
+        "boundary": {
+          "groupWeight": 0.041666666666666685,
+          "includedFraction": 0.3999999999999984,
+          "loss": 273,
+          "memberIds": [
+            "s18"
+          ],
+          "weightTaken": 0.016666666666666607
+        },
+        "members": [
+          {
+            "contribution": 12.416666666666671,
+            "groupIndex": 0,
+            "id": "s23",
+            "inclusionFraction": 1,
+            "index": 16,
+            "loss": 298,
+            "normalizedWeight": 0.041666666666666685,
+            "positionInGroup": 0,
+            "shareOfTail": 0.41666666666666696,
+            "tailOrder": 0,
+            "weight": 0.041666666666666664,
+            "weightInTail": 0.041666666666666685
+          },
+          {
+            "contribution": 11.750000000000005,
+            "groupIndex": 1,
+            "id": "s15",
+            "inclusionFraction": 1,
+            "index": 7,
+            "loss": 282,
+            "normalizedWeight": 0.041666666666666685,
+            "positionInGroup": 0,
+            "shareOfTail": 0.41666666666666696,
+            "tailOrder": 1,
+            "weight": 0.041666666666666664,
+            "weightInTail": 0.041666666666666685
+          },
+          {
+            "contribution": 4.549999999999984,
+            "groupIndex": 2,
+            "id": "s18",
+            "inclusionFraction": 0.3999999999999984,
+            "index": 10,
+            "loss": 273,
+            "normalizedWeight": 0.041666666666666685,
+            "positionInGroup": 0,
+            "shareOfTail": 0.1666666666666661,
+            "tailOrder": 2,
+            "weight": 0.041666666666666664,
+            "weightInTail": 0.016666666666666607
+          }
+        ],
+        "method": "weighted-discrete-tail-with-boundary-fraction",
+        "probabilityInterpretation": false,
+        "semantics": "weights",
+        "tailMass": 0.09999999999999998
+      },
+      "totalAssigned": 7,
+      "transferMinutes": 0
+    },
+    "scenarios": [
+      {
+        "after": 0,
+        "before": 21,
+        "id": "s0",
+        "reduction": 21,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 79,
+        "before": 139,
+        "id": "s1",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 261,
+        "before": 261,
+        "id": "s10",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 49,
+        "id": "s11",
+        "reduction": 49,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 186,
+        "before": 246,
+        "id": "s12",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 134,
+        "before": 139,
+        "id": "s13",
+        "reduction": 5,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 35,
+        "before": 95,
+        "id": "s14",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 282,
+        "before": 342,
+        "id": "s15",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 29,
+        "id": "s16",
+        "reduction": 29,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 106,
+        "before": 166,
+        "id": "s17",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 273,
+        "before": 273,
+        "id": "s18",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 2,
+        "before": 55,
+        "id": "s19",
+        "reduction": 53,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 249,
+        "before": 249,
+        "id": "s2",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 202,
+        "before": 262,
+        "id": "s20",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 138,
+        "before": 147,
+        "id": "s21",
+        "reduction": 9,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 43,
+        "before": 103,
+        "id": "s22",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 298,
+        "before": 358,
+        "id": "s23",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 45,
+        "id": "s3",
+        "reduction": 45,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 170,
+        "before": 230,
+        "id": "s4",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 217,
+        "before": 218,
+        "id": "s5",
+        "reduction": 1,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 27,
+        "before": 87,
+        "id": "s6",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 266,
+        "before": 326,
+        "id": "s7",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 0,
+        "before": 25,
+        "id": "s8",
+        "reduction": 25,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 91,
+        "before": 151,
+        "id": "s9",
+        "reduction": 60,
+        "weight": 0.041666666666666664
+      }
+    ],
+    "search": {
+      "alpha": 0.9,
+      "budget": 7,
+      "combinations": 18225,
+      "feasiblePlans": 11005,
+      "gap": 0,
+      "limits": {
+        "exhaustiveLimit": 100000,
+        "maxNodes": 300000,
+        "timeLimitMs": 15000
+      },
+      "lowerBound": 414.6250000000001,
+      "method": "exhaustive-enumeration",
+      "nodesEvaluated": 18225,
+      "optimality": "global-optimum",
+      "optimalityGuaranteed": true,
+      "proven": true,
+      "reason": null,
+      "riskWeight": 1,
+      "searchMode": "exhaustive-enumeration",
+      "status": "complete",
+      "upperBound": 414.6250000000001
+    },
+    "totalAssigned": 7,
+    "unchangedScenarios": [
+      {
+        "after": 261,
+        "before": 261,
+        "id": "s10",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 273,
+        "before": 273,
+        "id": "s18",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      },
+      {
+        "after": 249,
+        "before": 249,
+        "id": "s2",
+        "reduction": 0,
+        "weight": 0.041666666666666664
+      }
+    ]
+  },
+  "model": {
+    "assignableWorkers": 8,
+    "minutesPerWorker": 60,
+    "points": [
+      {
+        "language": "en",
+        "minimum": 0,
+        "point": "airport",
+        "transferCost": 10,
+        "uncovered": false
+      },
+      {
+        "language": "en",
+        "minimum": 1,
+        "point": "gate",
+        "transferCost": 6,
+        "uncovered": false
+      },
+      {
+        "language": "fr",
+        "minimum": 1,
+        "point": "hall",
+        "transferCost": 6,
+        "uncovered": false
+      },
+      {
+        "language": "fr",
+        "minimum": 0,
+        "point": "plaza",
+        "transferCost": 12,
+        "uncovered": false
+      }
+    ],
+    "scenarios": 24,
+    "uncoveredPoints": [],
+    "workers": 9
+  },
+  "objectiveFormula": "expectedShortfall + riskWeight * cvar(alpha)",
+  "riskAverse": {
+    "alpha": 0.9,
+    "assignment": [
+      {
+        "effectiveMinutes": 60,
+        "home": "gate",
+        "point": "gate",
+        "transferCost": 0,
+        "worker": "en-b"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "airport",
+        "point": "airport",
+        "transferCost": 0,
+        "worker": "en-c"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "hall",
+        "point": "hall",
+        "transferCost": 0,
+        "worker": "fr-a"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "hall",
+        "point": "hall",
+        "transferCost": 0,
+        "worker": "fr-b"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "airport",
+        "point": "airport",
+        "transferCost": 0,
+        "worker": "mix-a"
+      },
+      {
+        "effectiveMinutes": 60,
+        "home": "plaza",
+        "point": "plaza",
+        "transferCost": 0,
+        "worker": "mix-b"
+      }
+    ],
+    "cvar": 346,
+    "expectedShortfall": 167.33333333333334,
+    "headcount": {
+      "airport": 2,
+      "gate": 1,
+      "hall": 2,
+      "plaza": 1
+    },
+    "objective": 513.3333333333334,
+    "riskWeight": 1,
+    "scenarios": [
+      {
+        "id": "s0",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 64,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 30,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 47,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 81,
+            "shortfall": 21
+          }
+        },
+        "shortfall": 21,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s1",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 132,
+            "shortfall": 12
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 98,
+            "shortfall": 38
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 115,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 149,
+            "shortfall": 89
+          }
+        },
+        "shortfall": 139,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s10",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 204,
+            "shortfall": 84
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 170,
+            "shortfall": 110
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 187,
+            "shortfall": 67
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 41,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 261,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s11",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 92,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 58,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 75,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 109,
+            "shortfall": 49
+          }
+        },
+        "shortfall": 49,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s12",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 160,
+            "shortfall": 40
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 126,
+            "shortfall": 66
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 143,
+            "shortfall": 23
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 177,
+            "shortfall": 117
+          }
+        },
+        "shortfall": 246,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s13",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 48,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 194,
+            "shortfall": 134
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 31,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 65,
+            "shortfall": 5
+          }
+        },
+        "shortfall": 139,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s14",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 116,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 82,
+            "shortfall": 22
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 99,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 133,
+            "shortfall": 73
+          }
+        },
+        "shortfall": 95,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s15",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 184,
+            "shortfall": 64
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 150,
+            "shortfall": 90
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 167,
+            "shortfall": 47
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 201,
+            "shortfall": 141
+          }
+        },
+        "shortfall": 342,
+        "tailInclusion": 1,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.041666666666666685
+      },
+      {
+        "id": "s16",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 72,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 38,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 55,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 89,
+            "shortfall": 29
+          }
+        },
+        "shortfall": 29,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s17",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 140,
+            "shortfall": 20
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 106,
+            "shortfall": 46
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 123,
+            "shortfall": 3
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 157,
+            "shortfall": 97
+          }
+        },
+        "shortfall": 166,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s18",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 208,
+            "shortfall": 88
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 174,
+            "shortfall": 114
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 191,
+            "shortfall": 71
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 45,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 273,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s19",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 96,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 62,
+            "shortfall": 2
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 79,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 113,
+            "shortfall": 53
+          }
+        },
+        "shortfall": 55,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s2",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 200,
+            "shortfall": 80
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 166,
+            "shortfall": 106
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 183,
+            "shortfall": 63
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 37,
+            "shortfall": 0
+          }
+        },
+        "shortfall": 249,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s20",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 164,
+            "shortfall": 44
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 130,
+            "shortfall": 70
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 147,
+            "shortfall": 27
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 181,
+            "shortfall": 121
+          }
+        },
+        "shortfall": 262,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s21",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 52,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 198,
+            "shortfall": 138
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 35,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 69,
+            "shortfall": 9
+          }
+        },
+        "shortfall": 147,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s22",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 120,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 86,
+            "shortfall": 26
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 103,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 137,
+            "shortfall": 77
+          }
+        },
+        "shortfall": 103,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s23",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 188,
+            "shortfall": 68
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 154,
+            "shortfall": 94
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 171,
+            "shortfall": 51
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 205,
+            "shortfall": 145
+          }
+        },
+        "shortfall": 358,
+        "tailInclusion": 1,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.041666666666666685
+      },
+      {
+        "id": "s3",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 88,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 54,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 71,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 105,
+            "shortfall": 45
+          }
+        },
+        "shortfall": 45,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s4",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 156,
+            "shortfall": 36
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 122,
+            "shortfall": 62
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 139,
+            "shortfall": 19
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 173,
+            "shortfall": 113
+          }
+        },
+        "shortfall": 230,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s5",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 44,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 190,
+            "shortfall": 130
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 207,
+            "shortfall": 87
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 61,
+            "shortfall": 1
+          }
+        },
+        "shortfall": 218,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s6",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 112,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 78,
+            "shortfall": 18
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 95,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 129,
+            "shortfall": 69
+          }
+        },
+        "shortfall": 87,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s7",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 180,
+            "shortfall": 60
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 146,
+            "shortfall": 86
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 163,
+            "shortfall": 43
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 197,
+            "shortfall": 137
+          }
+        },
+        "shortfall": 326,
+        "tailInclusion": 0.3999999999999984,
+        "tailMember": true,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0.016666666666666607
+      },
+      {
+        "id": "s8",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 68,
+            "shortfall": 0
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 34,
+            "shortfall": 0
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 51,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 85,
+            "shortfall": 25
+          }
+        },
+        "shortfall": 25,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      },
+      {
+        "id": "s9",
+        "normalizedWeight": 0.041666666666666685,
+        "perPoint": {
+          "airport": {
+            "capacity": 120,
+            "demand": 136,
+            "shortfall": 16
+          },
+          "gate": {
+            "capacity": 60,
+            "demand": 102,
+            "shortfall": 42
+          },
+          "hall": {
+            "capacity": 120,
+            "demand": 119,
+            "shortfall": 0
+          },
+          "plaza": {
+            "capacity": 60,
+            "demand": 153,
+            "shortfall": 93
+          }
+        },
+        "shortfall": 151,
+        "tailInclusion": 0,
+        "tailMember": false,
+        "weight": 0.041666666666666664,
+        "weightInTail": 0
+      }
+    ],
+    "tail": {
+      "actualTailMass": 0.09999999999999998,
+      "alpha": 0.9,
+      "boundary": {
+        "groupWeight": 0.041666666666666685,
+        "includedFraction": 0.3999999999999984,
+        "loss": 326,
+        "memberIds": [
+          "s7"
+        ],
+        "weightTaken": 0.016666666666666607
+      },
+      "members": [
+        {
+          "contribution": 14.916666666666673,
+          "groupIndex": 0,
+          "id": "s23",
+          "inclusionFraction": 1,
+          "index": 16,
+          "loss": 358,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.41666666666666696,
+          "tailOrder": 0,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "contribution": 14.250000000000007,
+          "groupIndex": 1,
+          "id": "s15",
+          "inclusionFraction": 1,
+          "index": 7,
+          "loss": 342,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.41666666666666696,
+          "tailOrder": 1,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.041666666666666685
+        },
+        {
+          "contribution": 5.433333333333314,
+          "groupIndex": 2,
+          "id": "s7",
+          "inclusionFraction": 0.3999999999999984,
+          "index": 21,
+          "loss": 326,
+          "normalizedWeight": 0.041666666666666685,
+          "positionInGroup": 0,
+          "shareOfTail": 0.1666666666666661,
+          "tailOrder": 2,
+          "weight": 0.041666666666666664,
+          "weightInTail": 0.016666666666666607
+        }
+      ],
+      "method": "weighted-discrete-tail-with-boundary-fraction",
+      "probabilityInterpretation": false,
+      "semantics": "weights",
+      "tailMass": 0.09999999999999998
+    },
+    "totalAssigned": 6,
+    "transferMinutes": 0
+  },
+  "riskInterpretation": "情景权重是给定情景的规划权重，不是预测概率；CVaR 只作离散情景的加权尾部平均，拒绝概率化风险解释。",
+  "search": {
+    "average": {
+      "alpha": 0.9,
+      "budget": 6,
+      "combinations": 18225,
+      "feasiblePlans": 8137,
+      "gap": 0,
+      "limits": {
+        "exhaustiveLimit": 100000,
+        "maxNodes": 300000,
+        "timeLimitMs": 15000
+      },
+      "lowerBound": 166.45833333333343,
+      "method": "exhaustive-enumeration",
+      "nodesEvaluated": 18225,
+      "optimality": "global-optimum",
+      "optimalityGuaranteed": true,
+      "proven": true,
+      "reason": null,
+      "riskWeight": 0,
+      "searchMode": "exhaustive-enumeration",
+      "status": "complete",
+      "upperBound": 166.45833333333343
+    },
+    "risk": {
+      "alpha": 0.9,
+      "budget": 6,
+      "combinations": 18225,
+      "feasiblePlans": 8137,
+      "gap": 0,
+      "limits": {
+        "exhaustiveLimit": 100000,
+        "maxNodes": 300000,
+        "timeLimitMs": 15000
+      },
+      "lowerBound": 513.3333333333334,
+      "method": "exhaustive-enumeration",
+      "nodesEvaluated": 18225,
+      "optimality": "global-optimum",
+      "optimalityGuaranteed": true,
+      "proven": true,
+      "reason": null,
+      "riskWeight": 1,
+      "searchMode": "exhaustive-enumeration",
+      "status": "complete",
+      "upperBound": 513.3333333333334
+    }
+  },
+  "settings": {
+    "alpha": 0.9,
+    "budget": 6,
+    "objective": "expectedShortfall + riskWeight * cvar(alpha)",
+    "riskWeight": 1,
+    "weightSemantics": "weights",
+    "weightSum": 0.9999999999999996
+  },
+  "weightsAreProbabilities": false
+}
